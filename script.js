@@ -22,9 +22,7 @@
                 itemHTML.classList.toggle('completed');
             })
 
-            itemHTML.addEventListener('dblclick', e => {
-                itemHTML.remove();
-            })
+           
 
             const wishList = document.querySelector('#fruitlist');
 
