@@ -1,5 +1,4 @@
 "use strict";
-
 {
   const addFoodForm = document.querySelector("#add-food");
 
@@ -17,10 +16,6 @@
 
       // <li class="list-item"> Text from the input in Here </li>
       itemHTML.innerText = itemToAdd.value;
-
-    //   itemHTML.addEventListener("click", e => {
-    //     itemHTML.classList.toggle("completed");
-    //   });
 
       const addFruit = document.querySelector("#fruitlist");
       addFruit.appendChild(itemHTML);
